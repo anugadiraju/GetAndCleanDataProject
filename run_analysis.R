@@ -10,7 +10,7 @@
 run_analysis <- function() {
     library(data.table)
     options(warn=-1)
-    setwd("C:/Users/agadiraju/Documents/RWorkingDir/GetDataProject")
+    #setwd("C:/Users/agadiraju/Documents/RWorkingDir/GetDataProject")
     
     ## Dataprep step
     ##get all the featurenames and activitynames and gather them into vectors.

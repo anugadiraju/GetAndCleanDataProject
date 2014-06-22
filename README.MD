@@ -9,6 +9,9 @@ CodeBook.MD  -  which provides the description of the variables
 
 run_analysis.R  - R Script which contains run_analisis function  
 
+It is expected that the current working directory is set and the samsung data is in .//UCI HAR Dataset/... files.
+The output produced is written to the same directory as well.
+
 This is the main function and it does the following steps. 
 1. Merges the training and the test sets to create one data set.
 2. Extracts only the measurements on the mean and standard deviation for each measurement. 
